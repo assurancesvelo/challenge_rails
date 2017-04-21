@@ -1,0 +1,33 @@
+.event-wrapper{
+  height: calc(100vh - 70px);
+  display: flex;
+  align-items: center;
+  padding: 0em 2em 0em 2em;
+}
+
+.event-left{
+  border: solid $gray-medium 1px;
+  text-align: center;
+  background-color: $gray-lighter;
+  padding: 0em 0em 0em 0em;
+}
+
+
+
+.event-right{
+  padding: 1em 3em 1em 3em;
+  width: 600px;
+  h2{
+    font-size: 23px;
+    font-weight: bold;
+  }
+  p{
+    font-size: 13px;
+  }
+}
+
+.event-marque-image{
+  height: 100px;
+  width: 100%;
+  background-size: cover !important;
+}

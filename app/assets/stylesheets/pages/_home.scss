@@ -2,3 +2,78 @@
  * CSS code specific to home page
  * (margin/padding adjustments)
  * ------------------------------------- */
+
+.partenaires {
+  padding: 1em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  img{
+    height: 5vh;
+  }
+}
+
+/* Navbar item */
+.partenaires-item {
+  flex: 0 1 auto;
+  cursor: pointer;
+  padding: 0 20px;
+}
+
+.cyclosportive{
+  text-align: center;
+  background-color: $gray-lighter;
+  color:gray-dark;
+  padding: 1em 0em 2em 0em;
+  h2{
+    font-weight: bold;
+  }
+}
+
+.cyclosportive-content{
+   padding: 2em 0em 1em 4em;
+}
+
+.cyclosportive-stats{
+  color: white;
+  text-align: center;
+  height: 40vh;
+  background-size: cover !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cyclosportive-stats-item{
+  h6 {
+  font-size:30px;
+  font-weight: bold;
+  }
+  p{
+  font-size:20px;
+  }
+}
+
+.lots{
+  text-align: center;
+  color:gray-dark;
+  padding: 1em 0em 2em 0em;
+  h2{
+    font-weight: bold;
+  }
+}
+
+.card-wrapper{
+  padding-top: 1em;
+}
+
+
+.ava{
+  text-align:center;
+  border-top: $gray-medium 1px solid;
+  padding: 1em;
+  padding-bottom:2em;
+  h2 {
+    font-weight: bold;
+  }
+}
