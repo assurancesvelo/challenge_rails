@@ -1,0 +1,26 @@
+<div class="container">
+  <div class="row">
+    <div class="col-sm-4 col-sm-offset-4">
+    <h2>Votre compte</h2>
+    <% if @user.avatar? %>
+      <%= cl_image_tag @user.avatar.path, width: 100 %>
+    <% end %>
+      <p>Prénom : <%= @user.first_name %></p>
+      <p>Nom : <%= @user.last_name %></p>
+      <p>Email : <%= @user.email %></p>
+      <p>Adresse : <%= @user.adress %></p>
+      <p>Code Postal : <%= @user.postal_code %></p>
+      <p>Ville : <%= @user.city %></p>
+      <p>Date de naissance : <%= @user.birth_day %></p>
+      <% if @user.photo? %>
+        <%= cl_image_tag @user.photo.path, width: 100 %>
+      <% end %>
+      <div class="btn btn-success" >
+      <%= link_to "Editer votre profil", edit_user_path %>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
