@@ -37,5 +37,9 @@ Product.create!(name: 'Pedaleur', description: '3 box à gagner', picture:'lot_p
 Product.create!(name: 'Pedaleur', description: '3 box à gagner', picture:'lot_pedaleur.jpg', score:'1er de chaque cathé', text:'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit tenetur harum sed, quos possimus voluptates. Ipsum nobis, porro magni praesentium obcaecati quod facere beatae assumenda doloremque culpa, unde voluptatum error.', url: 'https://www.pedaleur.fr/')
 Product.create!(name: 'Pedaleur', description: '3 box à gagner', picture:'lot_pedaleur.jpg', score:'1er de chaque cathé', text:'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit tenetur harum sed, quos possimus voluptates. Ipsum nobis, porro magni praesentium obcaecati quod facere beatae assumenda doloremque culpa, unde voluptatum error.', url: 'https://www.pedaleur.fr/')
 
+Race.destroy_all
 
+Race.create!(name: 'Claudio', distance: 100, price: 3000)
+Race.create!(name: 'Claudio', distance: 100, price: 4000)
+Race.create!(name: 'Claudio', distance: 100, price: 5000)
 

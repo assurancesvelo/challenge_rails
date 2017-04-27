@@ -1,18 +1,19 @@
 <div class="container" style="padding: 5em">
   <div class="row">
     <div class="col-sm-4 col-sm-offset-4">
-    <h2>Mise à jour de votre profil</h2>
+    <h2>Modifier votre profil</h2>
       <%= simple_form_for @user do |f| %>
       <%= f.input :last_name, placeholder: "Dauphin", label: "Nom" %>
       <%= f.input :first_name, placeholder: "Charles", label: "Prenom" %>
       <%= f.input :email, placeholder: "charles.dauphin@mma.fr", label: "Email" %>
+      <%= f.input :phone, placeholder: "0607080910", label: "Téléphone" %>
       <%= f.input :adress, placeholder: "58 rue de Buzenval", label: "Adresse" %>
       <%= f.input :postal_code, placeholder: "92210", label: "Code Postal" %>
       <%= f.input :city, placeholder: "Saint Cloud", label: "Ville" %>
-      <%= f.input :birth_day, label: "Date de Naissance" %>
+      <%= f.input :birth_day, start_year: Date.today.year - 110, end_year: Date.today.year, order: [:day, :month, :year], label: "Date de Naissance"  %>
       <%= f.input :avatar, as: :attachinary, label: "Photo de profil" %>
       <%= f.input :photo, as: :attachinary, label: "Certificat médial" %>
-      <%= f.button :submit, "Mettre à Jour", class: "btn btn-primary" %>
+      <%= f.button :submit, "Mettre à Jour", class: "btn button-orange" %>
       <% end %>
     </div>
   </div>

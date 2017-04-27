@@ -30,7 +30,7 @@
           <p><strong>Date : </strong><%= @event.date %></p>
           <p><strong>Lieu : </strong><%= @event.place %></p>
           <div class="event-button">
-          <a class="button-orange btn pulse" href="" target="_blank">Inscription</a>
+          <%= link_to "s'inscrire à une cyclo", races_path, class: "navbar-wagon-item button-orange btn pulse" %>
           </div>
         </div>
       </div>

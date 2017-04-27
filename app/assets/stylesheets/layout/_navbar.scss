@@ -48,6 +48,19 @@
   text-decoration: none;
 }
 
+/* Navbar orange link */
+
+.navbar-wagon-link-orange {
+  color: #F75100;
+  font-size: 14px;
+}
+
+.navbar-wagon-link-orange:hover {
+  color: $green;
+  text-decoration: none;
+}
+
+
 /* Navbar search form */
 .navbar-wagon-search {
   flex: 0 1 300px;

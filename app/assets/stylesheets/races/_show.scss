@@ -1,0 +1,67 @@
+
+.race-wrapper{
+  padding: 3em 0em 3em 0em;
+  h2{
+  text-align: center;
+  color: $orange;
+  }
+}
+
+.race-wrapper-inside{
+  padding: 3em 0em 3em 0em;
+}
+
+.race {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  border-radius: 20px;
+  transition: all 0.15s ease;
+  border: solid 1px $orange;
+}
+
+/* Body design */
+.race-body {
+  flex: 1 1 auto;
+}
+.race-body h3 {
+  font-weight: bold;
+  font-size: 23px;
+  margin-top: 0;
+}
+.race-body p {
+  font-weight: lighter;
+  color: #999999;
+  margin-bottom: 0;
+}
+
+/* Controls design */
+.race-controls {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: 0px;
+}
+.race-controls a {
+  padding: 0 20px;
+  font-size: 17px;
+  color: #E6E6E6;
+}
+.race-controls a:hover {
+  color: #D3473C !important
+}
+.race-controls-hidden a {
+  color: transparent;
+  font-size: 15px;
+  transition: all 0.15s ease;
+  border-color: transparent;
+}
+
+/* Hover effects */
+.race:hover {
+  background: #f7f7fa;
+  cursor: pointer;
+}
+
+// .product:hover .product-upvote { transform: scale(1.2) }
+.race:hover .race-controls-hidden a { color: #E6E6E6 }
