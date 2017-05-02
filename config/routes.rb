@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  devise_for :admin_users, ActiveAdmin::Devise.config
+  ActiveAdmin.routes(self)
   mount Attachinary::Engine => "/attachinary"
   devise_for :users
   resources :charges
@@ -9,7 +11,8 @@ Rails.application.routes.draw do
   get "/products/:id" => "products#show"
   get "/events/:id" => "events#show"
   get "/events" => "events#index"
-  get "/races" => "races#index"
+  resources :races
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
   resources :users
+  resources :purchases, only: [:show]
 end

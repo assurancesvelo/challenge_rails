@@ -39,7 +39,11 @@ Product.create!(name: 'Pedaleur', description: '3 box à gagner', picture:'lot_p
 
 Race.destroy_all
 
-Race.create!(name: 'Claudio', distance: 100, price: 3000)
-Race.create!(name: 'Claudio', distance: 100, price: 4000)
-Race.create!(name: 'Claudio', distance: 100, price: 5000)
+Race.create!(name: 'Claudio', distance: 100, price: 30, description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore delectus officia voluptate ducimus, qui ut tempora officiis? Ea tenetur, suscipit aliquam odit, eligendi earum nam, distinctio deserunt maxime quod aut!', elevation:'1000', date:'1er mai', place:'Breuillet')
+Race.create!(name: 'Claudio', distance: 100, price: 40, description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore delectus officia voluptate ducimus, qui ut tempora officiis? Ea tenetur, suscipit aliquam odit, eligendi earum nam, distinctio deserunt maxime quod aut!', elevation:'1000', date:'1er mai', place:'Breuillet')
+Race.create!(name: 'Claudio', distance: 100, price: 50, description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore delectus officia voluptate ducimus, qui ut tempora officiis? Ea tenetur, suscipit aliquam odit, eligendi earum nam, distinctio deserunt maxime quod aut!', elevation:'1000', date:'1er mai', place:'Breuillet')
+Race.create!(name: 'Claudio', distance: 100, price: 60, description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore delectus officia voluptate ducimus, qui ut tempora officiis? Ea tenetur, suscipit aliquam odit, eligendi earum nam, distinctio deserunt maxime quod aut!', elevation:'1000', date:'1er mai', place:'Breuillet')
+Race.create!(name: 'Claudio', distance: 100, price: 70, description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore delectus officia voluptate ducimus, qui ut tempora officiis? Ea tenetur, suscipit aliquam odit, eligendi earum nam, distinctio deserunt maxime quod aut!', elevation:'1000', date:'1er mai', place:'Breuillet')
+Race.create!(name: 'Claudio', distance: 100, price: 80, description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore delectus officia voluptate ducimus, qui ut tempora officiis? Ea tenetur, suscipit aliquam odit, eligendi earum nam, distinctio deserunt maxime quod aut!', elevation:'1000', date:'1er mai', place:'Breuillet')
 
+AdminUser.create!(email: 'admin@example.com', password: 'password', password_confirmation: 'password')

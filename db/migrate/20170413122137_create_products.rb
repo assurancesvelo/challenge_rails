@@ -5,7 +5,6 @@ class CreateProducts < ActiveRecord::Migration[5.0]
       t.string :description
       t.string :picture
       t.string :score
-
       t.timestamps
     end
   end

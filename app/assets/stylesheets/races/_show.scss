@@ -1,9 +1,14 @@
+.cart{
+  height:100vh
+}
+
+
 
 .race-wrapper{
   padding: 3em 0em 3em 0em;
   h2{
   text-align: center;
-  color: $orange;
+  color: $orange !important;
   }
 }
 
@@ -20,18 +25,30 @@
   border: solid 1px $orange;
 }
 
+.race-link {
+ display: block;
+ text-decoration: none !important;
+}
+
+
 /* Body design */
 .race-body {
   flex: 1 1 auto;
+}
+
+.race-cart{
+  font-size: 30px;
+  color:$orange;
 }
 .race-body h3 {
   font-weight: bold;
   font-size: 23px;
   margin-top: 0;
+  color: $gray-dark !important;
 }
 .race-body p {
   font-weight: lighter;
-  color: #999999;
+  color: #999999 !important;
   margin-bottom: 0;
 }
 
@@ -48,7 +65,7 @@
   color: #E6E6E6;
 }
 .race-controls a:hover {
-  color: #D3473C !important
+  color: #D3473C !important;
 }
 .race-controls-hidden a {
   color: transparent;

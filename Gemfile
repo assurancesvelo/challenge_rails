@@ -15,6 +15,10 @@ gem "jquery-fileupload-rails"
 gem "coffee-rails"
 gem 'stripe'
 
+gem 'activeadmin'
+gem 'inherited_resources'
+
+
 gem 'sass-rails'
 gem 'jquery-rails'
 gem 'uglifier'
