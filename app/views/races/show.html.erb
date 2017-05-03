@@ -20,7 +20,7 @@
 
       <script src="https://checkout.stripe.com/checkout.js"></script>
       <%= hidden_field_tag 'stripeToken' %>
-      <%= hidden_field_tag 'amount', @race.price%>
+      <%= hidden_field_tag 'amount', @race.price %>
       <%= hidden_field_tag 'stripeEmail' %>
       <script>
         var handler = StripeCheckout.configure({
