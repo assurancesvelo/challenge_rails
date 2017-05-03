@@ -17,6 +17,7 @@ gem 'stripe'
 
 gem 'activeadmin'
 gem 'inherited_resources'
+gem "letter_opener", :group => :development
 
 
 gem 'sass-rails'
