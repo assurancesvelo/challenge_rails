@@ -8,8 +8,7 @@
 
 User.destroy_all
 
-boris = User.create!(email: 'boris@gmail.com', password: 'testtest')
-seb = User.create!(email: 'seb@gmail.com', password: 'testtest')
+pierre = User.create!(email: 'pierre.liduena@gmail.com', password: '123456', first_name: 'pierre', last_name: 'liduena', adress: '58 rue de buzenval', postal_code: '33000', city:'paris', phone:'0000000000', birth_day: '24/11/1988' )
 
 
 Event.destroy_all
