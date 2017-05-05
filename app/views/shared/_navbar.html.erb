@@ -15,7 +15,7 @@
     <a href="" class="navbar-wagon-item navbar-wagon-link">Classement</a>
 
     <!-- Text link -->
-    <a href="" class="navbar-wagon-item navbar-wagon-link">Réglement</a>
+    <%= link_to 'Réglement', reglements_path, class: "navbar-wagon-item navbar-wagon-link" %>
 
     <% if user_signed_in? %>
 

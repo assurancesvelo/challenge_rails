@@ -1,15 +1,27 @@
 .profile-wrapper{
-  padding: 3em;
+  padding-bottom: 1em;
+  text-align: center;
   h2{
     font-size: 35px;
   }
 }
 
-
 .avatar-profile{
-  height: 100px;
-  width: 100px;
+  position:relative;
+  top: 30px;
+  height: 120px;
+  width: 120px;
   border-radius: 50%;
+  border: solid $orange 2px;
 }
 
+.user-avatar-profile{
+  text-align: center;
+}
 
+.profile-information{
+  background-color: $gray-lighter;
+  padding: 2em 2em 2em 2em;
+  border-radius: 20px;
+  border: solid $orange 1px;
+}

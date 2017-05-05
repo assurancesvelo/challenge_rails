@@ -1,11 +1,13 @@
 <div class="container profile">
   <div class="row">
-  <div class="col-sm-6 col-sm-offset-3 profile-wrapper">
-        <% if @user.avatar? %>
-        <%= cl_image_tag @user.avatar.path, width: 240, height: 240, crop: :fill, class: 'avatar-profile' %>
-        <% end %>
+    <div class="col-sm-8 col-sm-offset-2 profile-wrapper">
+      <% if @user.avatar? %>
+      <%= cl_image_tag @user.avatar.path, width: 240, height: 240, crop: :fill, class: 'avatar-profile' %>
+      <% end %>
+      <div class="profile-information">
         <h2>Votre compte</h2>
-        <p><strong>Prénom :</strong><span style="color:#F75100"> <%= @user.first_name %> </span></p>
+        <br>
+        <p><strong>Prénom :</strong><span style="color:#F75100"> <%= @user.first_name %></span></p>
         <p><strong>Nom :</strong><span style="color:#F75100"> <%= @user.last_name %></span></p>
         <p><strong>Email :</strong><span style="color:#F75100"> <%= @user.email %></span></p>
         <p><strong>Téléphone :</strong><span style="color:#F75100"> <%= @user.phone %></span></p>
@@ -23,9 +25,10 @@
           <li><%= link_to "S'inscrire à un événement", races_path, class: 'btn button-orange pulse' %></li>
           <li><%= link_to "Editer votre profil", edit_user_path, class: 'btn btn-medium-grey' %></li>
         </ul>
+        <p>
+        <br>
+        <span style="color:red; font-size:15px;">Veuillez completer votre profil et verifier l'exactitude des informations</span></p>
+      </div>
     </div>
   </div>
 </div>
-
-
-

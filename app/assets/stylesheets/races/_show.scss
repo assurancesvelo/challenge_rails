@@ -1,8 +1,35 @@
 .cart{
-  height:100vh
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+.cart-banner{
+  height:150px;
+  color: white;
+}
+
+.cart-header{
+  padding-top: 3em;
+  padding-bottom: 3em;
+}
+
+.cart-banner {
+  height: 175px;
+  text-shadow: 0 1px 3px rgba(0,0,0,0.6);
+  background-size: cover !important;
+  color: white;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 
+.cart-title {
+  h2 {
+    font-size: 55px;
+  }
+}
 
 .race-wrapper{
   padding: 3em 0em 3em 0em;
@@ -10,6 +37,11 @@
   text-align: center;
   color: $orange !important;
   }
+}
+
+.add-to-cart{
+  padding-top: 2em;
+  text-align: center;
 }
 
 .race-wrapper-inside{

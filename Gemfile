@@ -15,6 +15,8 @@ gem "jquery-fileupload-rails"
 gem "coffee-rails"
 gem 'stripe'
 
+
+
 gem 'activeadmin'
 gem 'inherited_resources'
 gem "letter_opener", :group => :development

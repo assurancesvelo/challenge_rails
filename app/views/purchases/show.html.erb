@@ -1,2 +1,25 @@
-<p>T his is your purchase </p>
-<p>Your purshase is <%= @purchase.inspect %>  </p>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-8 col-sm-offset-2">
+      <div class="purchase-wrapper">
+        <div class="purchase-title">
+         <h2>Merci <%= @user.first_name %> pour votre inscription </h2>
+       </div>
+       <div class="purchase-content">
+        <p>Un email vient de vous être envoyé sur votre boite mail à l'adresse : <strong><%= @user.email %></strong> avec tous les détails de votre inscription
+          <br><br>
+          Rendez vous à <strong><%= @race.name %></strong> qui aura lieu à <strong><%= @race.place %></strong>  le <strong><%= @race.date %></strong>
+          <br><br>
+          Montant de la commande : <strong><%= @purchase.amount %> € </strong>
+          <br><br>
+          Si vous ne trouvez pas votre mail de commande pensez à vérifier dans vos spams.
+          <br>
+          <br>
+          Si le problème perciste contactez nous à : assurancesvelo@gmail.com
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
