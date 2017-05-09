@@ -14,7 +14,7 @@
 
 
         <div class="add-to-cart">
-        <button id="btn-buy" type="button" class="btn button-orange pulse">Passer la commande</button>
+        <button id="btn-buy" type="button" class="btn button-orange pulse">S'inscrire à l'événement</button>
         </div>
 
         <div class="cart-header">
@@ -48,6 +48,8 @@
             document.getElementById('btn-buy').addEventListener('click', function(e){
               handler.open({
                 name: 'Challenge Assurances Vélo',
+                locale: 'auto',
+                currency: 'eur',
                 description: 'Inscription à la <%= @race.name %>',
                 amount: document.getElementById("amount").value*100
               });

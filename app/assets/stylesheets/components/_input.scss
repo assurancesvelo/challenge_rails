@@ -1,0 +1,46 @@
+input[type=email] {
+    border: solid $orange 1px;
+    border-radius:3px;
+    color: $orange;
+}
+
+input[type=text] {
+    border: solid $orange 1px;
+    border-radius:3px;
+    color: $orange;
+}
+
+input[type=number] {
+    border: solid $orange 1px;
+    border-radius:3px;
+    color: $orange;
+}
+
+#user_birth_day_1i{
+    border: solid $orange 1px;
+    border-radius:3px;
+    color: $orange;
+}
+#user_birth_day_2i{
+    border: solid $orange 1px;
+    border-radius:3px;
+    color: $orange;
+}
+#user_birth_day_3i{
+    border: solid $orange 1px;
+    border-radius:3px;
+    color: $orange;
+}
+
+input[type=password] {
+    border: solid $orange 1px;
+    border-radius:3px;
+    color: $orange;
+}
+
+input[type=submit] {
+    padding:5px 15px;
+    background:$orange;
+    color: white;
+    border:0 none;
+}
