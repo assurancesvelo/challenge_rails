@@ -12,6 +12,10 @@ Rails.application.configure do
   # Show full error reports.
   config.consider_all_requests_local = true
 
+  #recover password
+
+  config.action_mailer.default_url_options = { :host => 'localhost:3000' }
+
   #for developpement mode use letter opener
 
   config.action_mailer.delivery_method = :letter_opener
