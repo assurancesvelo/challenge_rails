@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170505121301) do
+ActiveRecord::Schema.define(version: 20170526123114) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -96,14 +96,20 @@ ActiveRecord::Schema.define(version: 20170505121301) do
     t.string   "customer_id"
     t.string   "card"
     t.integer  "product_id"
-    t.datetime "created_at",          null: false
-    t.datetime "updated_at",          null: false
+    t.datetime "created_at",           null: false
+    t.datetime "updated_at",           null: false
     t.string   "customer_first_name"
     t.string   "customer_last_name"
     t.string   "race_name"
     t.string   "race_date"
     t.string   "race_place"
-    t.integer  "race_price"
+    t.string   "race_price"
+    t.string   "customer_adress"
+    t.string   "customer_postal_code"
+    t.date     "customer_birth_day"
+    t.string   "customer_city"
+    t.string   "customer_phone"
+    t.string   "customer_license"
   end
 
   create_table "races", force: :cascade do |t|
