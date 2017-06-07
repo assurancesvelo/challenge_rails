@@ -72,7 +72,6 @@ Race.destroy_all
 
 Race.create!(name: 'Les Monts de l\'Auxois' , distance: 85, price: 32, description: 'Nouvelle cyclosportive bourguignonne, au cœur de l’Auxois. Le parcours emprunte une succession de petits monts, jamais très longs mais souvent difficiles. Leurs sommets offrent une belle vue sur la campagne Côte d’Orienne. Après un galop d’essai en 2016, l’épreuve tant à s’améliorer et à grandir en 2017. ', elevation:'nc', date:'10 septembre 2017', place:'Semur en Auxois - 21140', picture:'event_auxois.jpg')
 Race.create!(name: 'Les Monts de l\'Auxois' , distance: 140, price: 32, description: 'Nouvelle cyclosportive bourguignonne, au cœur de l’Auxois. Le parcours emprunte une succession de petits monts, jamais très longs mais souvent difficiles. Leurs sommets offrent une belle vue sur la campagne Côte d’Orienne. Après un galop d’essai en 2016, l’épreuve tant à s’améliorer et à grandir en 2017. ', elevation:'nc', date:'10 septembre 2017', place:'Semur en Auxois - 21140', picture:'event_auxois.jpg')
-Race.create!(name: 'Les Monts de l\'Auxois' , distance: 100, price: 1, description: 'Nouvelle cyclosportive bourguignonne, au cœur de l’Auxois. Le parcours emprunte une succession de petits monts, jamais très longs mais souvent difficiles. Leurs sommets offrent une belle vue sur la campagne Côte d’Orienne. Après un galop d’essai en 2016, l’épreuve tant à s’améliorer et à grandir en 2017. ', elevation:'nc', date:'10 septembre 2017', place:'Semur en Auxois - 21140', picture:'event_auxois.jpg')
 
 
 
