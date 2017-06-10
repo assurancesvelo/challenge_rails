@@ -106,10 +106,10 @@ ActiveRecord::Schema.define(version: 20170608122432) do
     t.string   "race_price"
     t.string   "customer_adress"
     t.string   "customer_postal_code"
+    t.string   "customer_city"
     t.date     "customer_birth_day"
     t.string   "customer_phone"
     t.string   "customer_license"
-    t.string   "customer_city"
     t.string   "customer_place"
   end
 
