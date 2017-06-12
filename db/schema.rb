@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170608122432) do
+ActiveRecord::Schema.define(version: 20170612132444) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -106,11 +106,10 @@ ActiveRecord::Schema.define(version: 20170608122432) do
     t.string   "race_price"
     t.string   "customer_adress"
     t.string   "customer_postal_code"
-    t.string   "customer_city"
     t.date     "customer_birth_day"
     t.string   "customer_phone"
     t.string   "customer_license"
-    t.string   "customer_place"
+    t.string   "customer_city"
   end
 
   create_table "races", force: :cascade do |t|
@@ -146,6 +145,7 @@ ActiveRecord::Schema.define(version: 20170608122432) do
     t.date     "birth_day"
     t.string   "city"
     t.integer  "phone"
+    t.string   "license"
     t.index ["email"], name: "index_users_on_email", unique: true, using: :btree
     t.index ["reset_password_token"], name: "index_users_on_reset_password_token", unique: true, using: :btree
   end
