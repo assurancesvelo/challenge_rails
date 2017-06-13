@@ -8,7 +8,7 @@ class UsersController < ApplicationController
   end
 
   def update
-    current_user.license = "http://res.cloudinary.com/assurances-v-lo/image/upload/" + current_user.photo.path
+    #current_user.license = "http://res.cloudinary.com/assurances-v-lo/image/upload/" + current_user.photo.path
     @user = current_user
     if @user.update(user_params)
       redirect_to user_path
