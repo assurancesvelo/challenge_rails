@@ -4,7 +4,7 @@ en:
   devise:
     confirmations:
       confirmed: "Votre email a été confirmé avec succés."
-      send_instructions: "Vous allez recevoir un email avec les instructions avec les informations pour confirmer votre adresse email dans quelques minutes."
+      send_instructions: "Vous allez recevoir un email avec les instructions et les informations pour confirmer votre adresse email dans quelques minutes."
       send_paranoid_instructions: "Si votre email existe dans notre base de donnée, Vous allez recevoir un email avec les instructions avec les informations pour confirmer votre adresse email dans quelques minutes."
     failure:
       already_authenticated: "Vous êtes déjà connecté."
@@ -15,10 +15,10 @@ en:
       not_found_in_database: "Invalide %{authentication_keys} ou mot de passe."
       timeout: "Votre session a expirée. Merci de vous reconnecter pour continuer."
       unauthenticated: "Vous avec besoin de vous connecter ou de créer un compte."
-      unconfirmed: "You have to confirm your email address before continuing."
+      unconfirmed: "Vous devez confirmer votre adresse email avant de continuer."
     mailer:
       confirmation_instructions:
-        subject: "Confirmation de instructios"
+        subject: "Confirmation de instructions"
       reset_password_instructions:
         subject: "Renouveller le mot de passe"
       unlock_instructions:
@@ -31,34 +31,34 @@ en:
       failure: "Nous ne pouvons pas vous authentifier depuis %{kind} parce que \"%{reason}\"."
       success: "Authentification faite avec succés depuis %{kind}."
     passwords:
-      no_token: "You can't access this page without coming from a password reset email. If you do come from a password reset email, please make sure you used the full URL provided."
-      send_instructions: "You will receive an email with instructions on how to reset your password in a few minutes."
-      send_paranoid_instructions: "If your email address exists in our database, you will receive a password recovery link at your email address in a few minutes."
-      updated: "Your password has been changed successfully. You are now signed in."
-      updated_not_active: "Your password has been changed successfully."
+      no_token: "Vous ne pouvez acceder à cette page sans venir d'un email de changement de mot de passe. Si vous venez d'un email de changement de mot de passe., vérifier que vous avez utiliser l'intégralité de l'URL envoyé"
+      send_instructions: "Vous allez revevoir dans quelques minutes un email avec les instruction pour changer de mot de passe"
+      send_paranoid_instructions: "Si votre adresse email existe dans notre base de donnée, vous allez recevoir un email avec un un lien pour reinitialiser votre mot de passe dans quelques minutes"
+      updated: "Votre mot de passe a été changé succés. Vous êtes maintenant connecté !"
+      updated_not_active: "Votre mot de passe a été changé avec succés."
     registrations:
-      destroyed: "Bye! Your account has been successfully cancelled. We hope to see you again soon."
+      destroyed: "Bye! Votre compte a été supprmé avec succés. Nous espérons vous revoir bientôt."
       signed_up: "Bienvenu dans le challenge! Votre compte à été créé avec succés"
-      signed_up_but_inactive: "You have signed up successfully. However, we could not sign you in because your account is not yet activated."
-      signed_up_but_locked: "You have signed up successfully. However, we could not sign you in because your account is locked."
-      signed_up_but_unconfirmed: "A message with a confirmation link has been sent to your email address. Please follow the link to activate your account."
-      update_needs_confirmation: "You updated your account successfully, but we need to verify your new email address. Please check your email and follow the confirm link to confirm your new email address."
-      updated: "Your account has been updated successfully."
+      signed_up_but_inactive: "Vous avez créer votre compte avec succés. Toutefois, vous ne pouvez pas encore vous connecter parce que votre compte n'est pas encore activé"
+      signed_up_but_locked: "YVous avez créer votre compte avec succés. Toutefois, vous ne pouvez pas encore vous connecter parce que votre compte est bloqué"
+      signed_up_but_unconfirmed: "Un message avec un lien de confirmation vous a été envoyé à votre adresse mail. Merci de cliquer sur le lien présent dans l'email pour activer votre compte client"
+      update_needs_confirmation: "Votre compte à été modifé avec succées mais nous avons besoin de vérifier votre adresse email. Merci de vérifier vos emails et de cliquer sur le lien de confirmation pour confirmer votre nouvelle adresse mail."
+      updated: "Votre compte a été modifié avec succés."
     sessions:
       signed_in: "Vous êtes connecté"
       signed_out: "Déconnexion établie avec succés"
       already_signed_out: "Déconnexion établie avec succés"
     unlocks:
-      send_instructions: "You will receive an email with instructions for how to unlock your account in a few minutes."
-      send_paranoid_instructions: "If your account exists, you will receive an email with instructions for how to unlock it in a few minutes."
-      unlocked: "Your account has been unlocked successfully. Please sign in to continue."
+      send_instructions: "Vous allez recevoir dans quelques minutes un email avec les instructions pour débloquer votre compte"
+      send_paranoid_instructions: "Si votre compte existe, vous allez recevoir dans quelques minutes un email avec les instructions pour débloquer votre compte"
+      unlocked: "Votre compte a été débloqué avec succés. Merci de vous connecter pour continuer"
   errors:
     messages:
-      already_confirmed: "was already confirmed, please try signing in"
-      confirmation_period_expired: "needs to be confirmed within %{period}, please request a new one"
-      expired: "has expired, please request a new one"
-      not_found: "not found"
-      not_locked: "was not locked"
+      already_confirmed: "déjà confirmé, s'il vous plait essayez de vous enregistrer"
+      confirmation_period_expired: "Vous avez besoin de confirmer sous  %{period}, merci de demander une nouvelle confirmation"
+      expired: "a expiré, veuillez recommencer"
+      not_found: "introuvable"
+      not_locked: "n'est pas bloqué"
       not_saved:
         one: "1 error prohibited this %{resource} from being saved:"
         other: "%{count} errors prohibited this %{resource} from being saved:"
