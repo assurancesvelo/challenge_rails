@@ -12,6 +12,7 @@ Rails.application.routes.draw do
   get "/events/:id" => "events#show"
   get "/events" => "events#index"
   get "/reglements" => "reglements#index"
+  get "/classements" => "classements#index"
   resources :races
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
   resources :users
