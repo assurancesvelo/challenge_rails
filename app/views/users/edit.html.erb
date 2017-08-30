@@ -12,7 +12,7 @@
       <%= f.input :city, placeholder: "", label: "Ville" %>
       <%= f.input :birth_day, start_year: Date.today.year - 110, end_year: Date.today.year, order: [:day, :month, :year], label: "Date de Naissance"  %>
       <%= f.input :avatar, as: :attachinary, label: "Photo de profil" %>
-      <%= f.input :photo, as: :attachinary, label: "Certificat médial" %>
+      <%= f.input :photo, as: :attachinary, label: "Certificat médial ou license 2017" %>
       <%= f.button :submit, "Mettre à Jour", class: "btn button-orange" %>
       <% end %>
     </div>
